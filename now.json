@@ -1,0 +1,11 @@
+{
+  "scope": "norfolkdev",
+  "routes": [
+    {
+      "src": "/.*",
+      "status": 301,
+      "headers": { "Location": "https://nordevcon.com/" }
+    }
+  ],
+  "alias": ["www.nordevcon.com"]
+}
